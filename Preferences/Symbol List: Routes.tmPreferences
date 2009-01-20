@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List: Routes</string>
+	<key>scope</key>
+	<string>entity.route</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>s/do$///</string>
+	</dict>
+	<key>uuid</key>
+	<string>3B3BB6F9-1911-4D9B-9EC2-B6746C98C3B9</string>
+</dict>
+</plist>
