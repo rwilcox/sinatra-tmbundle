@@ -9,10 +9,37 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.route.sinatra</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.sinatra</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.single.ruby</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.start-block.ruby</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>((get|put|post|delete) \'([-_a-zA-Z0-9:/*]+)\' (do))</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(get|put|post|delete|head|error|configure|before|helpers|use_in_file_templates!|use|haml|erb|sass|set|enable|disable)\b</string>
 			<key>name</key>
-			<string>keyword</string>
+			<string>keyword.sinatra</string>
 		</dict>
 		<dict>
 			<key>include</key>
