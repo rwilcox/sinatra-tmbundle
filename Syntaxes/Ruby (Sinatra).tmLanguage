@@ -33,7 +33,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>((get|put|post|delete) \'([-_a-zA-Z0-9:/*]+)\' (do))</string>
+			<string>((get|put|post|delete) [\'"](.+?)[\'"] (do))</string>
 		</dict>
 		<dict>
 			<key>match</key>
